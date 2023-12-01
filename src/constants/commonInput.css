@@ -1,0 +1,57 @@
+.loginInput {
+  margin-bottom: 32px;
+}
+.loginInput__input {
+  padding: 8px;
+  background: transparent;
+  border-radius: 12px;
+}
+.loginInput__input .ant-input-prefix {
+  font-size: 21px;
+  margin-right: 8px;
+  padding-right: 8px;
+}
+.loginInput__input input {
+  background: transparent;
+}
+.loginInput__input:hover, .loginInput__input:active,
+.loginInput .ant-input-affix-wrapper-focused {
+  border-color: var(--is-white-color) !important;
+  border-bottom: 1px solid var(--is-theme-color) !important;
+  box-shadow: none !important;
+}
+.loginInput__input:hover .ant-input-prefix, .loginInput__input:active .ant-input-prefix,
+.loginInput .ant-input-affix-wrapper-focused .ant-input-prefix {
+  border-right: 1px solid var(--is-theme-color);
+}
+.loginInput__input:hover .ant-input-prefix svg, .loginInput__input:active .ant-input-prefix svg,
+.loginInput .ant-input-affix-wrapper-focused .ant-input-prefix svg {
+  color: var(--is-theme-color) !important;
+}
+.loginInput .ant-input-affix-wrapper-status-error .ant-input-prefix {
+  border-right: 1px solid var(--is-danger-color);
+}
+.loginInput .ant-input-affix-wrapper-status-error .ant-input-prefix svg {
+  color: var(--is-danger-color) !important;
+}
+.loginInput .ant-input-affix-wrapper-status-error:hover,
+.loginInput .ant-input-affix-wrapper-status-error:active {
+  border-color: var(--is-danger-color) !important;
+  border-bottom: 1px solid var(--is-danger-color) !important;
+  box-shadow: none !important;
+}
+.loginInput .ant-input-affix-wrapper-status-error:hover .ant-input-prefix,
+.loginInput .ant-input-affix-wrapper-status-error:active .ant-input-prefix {
+  border-right: 1px solid var(--is-danger-color);
+}
+.loginInput .ant-input-affix-wrapper-status-error:hover .ant-input-prefix svg,
+.loginInput .ant-input-affix-wrapper-status-error:active .ant-input-prefix svg {
+  color: var(--is-danger-color) !important;
+}
+
+.disabled-message {
+  margin-top: -30px;
+  margin-bottom: 26px;
+  font-size: 12px;
+  color: gray;
+}/*# sourceMappingURL=commonInput.css.map */
